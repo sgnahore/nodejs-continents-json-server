@@ -1,5 +1,5 @@
 import express from "express";
-import { ASIA, OCEANIA } from "./continents";
+import { ASIA, EUROPE, OCEANIA } from "./continents";
 import filePath from "./filePath";
 
 const app = express();
@@ -11,6 +11,10 @@ app.get("/", (req, res) => {
 
 app.get("/asia", (req, res) => {
   res.json(ASIA);
+});
+
+app.get("/europe", (req, res) => {
+  res.json(EUROPE);
 });
 
 app.get("/oceania", (req, res) => {

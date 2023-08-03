@@ -31,6 +31,20 @@ export const ASIA: Continent = {
   },
 };
 
+export const EUROPE: Continent = {
+  name: "Europe",
+  area: {
+    sqKm: 10_180_000,
+    sqMiles: 3_930_000,
+    pctOfTotal: 5.7,
+  },
+  highestPoint: "Mount Elbrus",
+  population: {
+    people: { count: 742, unit: "million" },
+    pctOfTotal: 0.54,
+  },
+};
+
 export const OCEANIA: Continent = {
   name: "Oceania",
   area: {
